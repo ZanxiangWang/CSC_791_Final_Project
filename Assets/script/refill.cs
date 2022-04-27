@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class refill : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public PlayerController carController;
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        carController.gas = 1;
+        Destroy(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -9,11 +9,14 @@ public class TerrainGen : MonoBehaviour
     public int scale = 1000;
     public int octave = 175;
 
+    public GameObject gasTank;
+
     // Start is called before the first frame update
     void Start()
     {
         float interval = (float)scale / (float)octave;
         Track = GetComponent<SpriteShapeController>();
+        Vector3 pos;
 
         Track.spline.SetPosition(2, Track.spline.GetPosition(2) + Vector3.right * scale);
         Track.spline.SetPosition(3, Track.spline.GetPosition(3) + Vector3.right * scale);
@@ -26,8 +29,8 @@ public class TerrainGen : MonoBehaviour
             float currentPos = Track.spline.GetPosition(i + 1).x + interval;
             Track.spline.InsertPointAt(i + 2, new Vector3(currentPos, noise * 15));
             Track.spline.SetTangentMode(i + 2, ShapeTangentMode.Continuous);
-            Track.spline.SetLeftTangent(i + 2, new Vector3(Random.Range(-1, -2), 0, 0));
-            Track.spline.SetRightTangent(i + 2, new Vector3(Random.Range(1, 2), 0, 0));
+            Track.spline.SetLeftTangent(i + 2, new Vector3(Random.Range(-1, -3), 0, 0));
+            Track.spline.SetRightTangent(i + 2, new Vector3(Random.Range(1, 3), 0, 0));
         }
     }
 }

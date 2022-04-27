@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D car;
     public float torque = 30;
     public float speed = 150;
-    public float gas = 1;
+    public float gas = 100;
     public float consumRate = 0.1f;
 
     private float carMovement;
