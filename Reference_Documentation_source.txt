@@ -1,0 +1,50 @@
+REFERENCE AND DOCUMENTATION
+
+https://www.youtube.com/watch?v=LglxmUmWB7c&ab_channel=Unity
+Created by Unity
+
+This video teaches about sprite shape scripting made by unity. The video's game is more complex and has better animation
+then my code the only thing I learnt from the video is how to use the GetPosition, SetPosition, how to edit the tangent
+so I only used the video as reference and did not copy a single code from this
+
+https://www.youtube.com/watch?v=neTvQEDhZZM&ab_channel=ChronoABI
+Created by ChronoABI
+
+This creator shows people how to do a procedural generated 2D terrain procedural generation. The video made us of 
+tile maps and uses Perlin nose for generation. The end result of this showcase is a pixal art style map. I only
+made use of how he utalized the mathf.PerlinNoise function in his creation. I did not copy any code from this 
+creator
+
+https://www.spriters-resource.com/mobile/hillclimbracing/
+From "THE SPRITERS RESOURCE" created by the VG RESOURCE
+
+I came across this site when searching for free sprite. I originally wanted to make the sprite by myself but due to
+Time constraints I decided against it and imported some car and ground sprites.
+
+https://www.youtube.com/watch?v=sUvwKH7qyQQ&ab_channel=Comp-3Interactive
+Created by Comp-3 Interactive
+
+This video teaches how to create a basic stemina system. I was able to learn how to use use canves and image
+how to edit the component and make it fillable object. The original code make a refillable stamina system and 
+a most complex animation. My code only make use of a imported sprite made it a fillable object and did a simple
+consumtion function
+
+https://www.youtube.com/watch?v=u6SiHi0HBxU&t=1154s&ab_channel=DonHaulGameDev-Wabble-UnityTutorials
+Created by DonHaul Game Dev - Wabble - Unity Tutorials
+
+The video showed how to make a 2D car movement script. The creator used a more complex method for their car movement
+but I decided against employing it. The only thing I learnt from it is when I had the bug of my car wheel spinning off
+I leanrt from this creator that applying the Wheel Join 2D to the car body instead of the wheels makes the car movement
+more stable.
+
+https://forum.unity.com/threads/spriteshape-preview-package.522575/?utm_source=evangelism&utm_medium=
+social&utm_campaign=evangelism_global_generalpromo_2018-08-28-sprite-shape-videos&utm_content=eva&aid=
+1011l3LoF&pubref=evangelism-social-sprite-shape-videos
+
+From Unity Forum
+
+This is a Unity Forum for sprite shape scripting. Some of the work shown how to manually manipulate the sprite shape
+I used the method to made a starting platform for my project, this platform is constant without the use of perlin noise
+generation
+
+
