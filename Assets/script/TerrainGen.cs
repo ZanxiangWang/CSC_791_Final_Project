@@ -16,7 +16,6 @@ public class TerrainGen : MonoBehaviour
     {
         float interval = (float)scale / (float)octave;
         Track = GetComponent<SpriteShapeController>();
-        Vector3 pos;
 
         Track.spline.SetPosition(2, Track.spline.GetPosition(2) + Vector3.right * scale);
         Track.spline.SetPosition(3, Track.spline.GetPosition(3) + Vector3.right * scale);
